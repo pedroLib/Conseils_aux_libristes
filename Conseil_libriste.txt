@@ -1,0 +1,194 @@
+\documentclass{beamer}
+\mode<presentation> {
+%\usetheme{Madrid}
+%\usetheme{default}
+\usepackage{color}
+\definecolor{bottomcolour}{rgb}{0.21,0.11,0.21}
+\definecolor{middlecolour}{rgb}{0.21,0.11,0.21}
+\setbeamercolor{structure}{fg=white}
+\setbeamertemplate{frametitle}[default]%[center]
+\setbeamercolor{normal text}{bg=black, fg=white}
+\setbeamertemplate{background canvas}[vertical shading]
+[bottom=bottomcolour, middle=middlecolour, top=black]
+\setbeamertemplate{items}[circle]
+\setbeamertemplate{navigation symbols}{} %no nav symbols
+\setbeamercolor{block title}{use=structure,fg=white,bg=structure.fg!50!red!50!blue!100!green}
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!5!white!10!bg,fg=white}
+\setbeamertemplate{navigation symbols}{}
+\newcounter{moncompteur}
+}
+
+\usepackage{graphicx} 
+\usepackage{booktabs} 
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}  
+\usepackage{geometry}     
+\usepackage[francais]{babel} 
+\usepackage{eurosym}
+\usepackage{verbatim}
+\usepackage{ragged2e}
+\justifying
+
+\input{cc_beamer}
+
+\title[Conseils aux libristes pour faire passer au libre]{Conseils aux libristes pour faire passer au libre} 
+\author{Genma}
+
+\begin{document}
+
+%% Titlepage
+\begin{frame}
+	\titlepage
+	\vfill
+	\begin{center}
+		\CcGroupByNcSa{0.83}{0.95ex}\\[2.5ex]
+		{\tiny\CcNote{\CcLongnameByNcSa}}
+		\vspace*{-2.5ex}
+	\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\justifying{
+Cette présentation est une adaptation du retour d'expérience Conseils à un libriste pour faire passer au libre
+de Dada, qui est une oeuvre mise à disposition selon les termes de la Licence Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International.. 
+}
+
+
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+
+\begin{block}{Ne pas forcer le passage}
+\justifying{
+Il ne sert à rien de se lever un jour en disant qu'untel va avoir le droit à son passage au libre. 
+Il s'en fout, n'a pas connaissance des courants privateur et libre des logiciels. 
+L'utilisateur d'un ordinateur veut que ça marche et n'aime pas le changement.
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+\begin{block}{Attendez que l'ordinateur se dégrade avant d'agir.}
+\justifying{
+Sinon, l'adoption se fera dans la contrainte. Prendre l'ordinateur d'un ami et lui installer quelque chose qu'il ne connait pas parce que vous vous trouvez ça bien, c'est trop souvent foncer dans le mur. Quand ça marche, ça marche et il ne veut surtout pas que ça change. Attendez un peu, la fenêtre d'attaque arrivera bien assez vite...
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+\begin{block}{Commencer simplement, par des logiciels courants}
+\justifying{
+Firefox, Thunderbird et VLC sont les meilleurs moyens au monde pour faire glisser quelqu'un vers les logiciels libres. Ils regroupent les besoins de 90% des utilisateurs. Du web, des mails, un agenda, des vidéos. Rien qu'avec des 3 bijoux du libre, vous venez de noyez sournoisement quelqu'un dans notre univers.
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+\begin{block}{Ne parlez pas de logiciel libre tout de suite}
+\justifying{
+Non ! Surtout pas. L'ordinateur est une boite noire. Personne n'y comprend rien et personne ne veut comprendre. Alors laissez tomber l'approche éthique de votre démarche si vous savez que la personne en face n'est pas sensible à ça. 
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+\begin{block}{Ne parlez pas de GNU/Linux}
+\justifying{
+Malheureux ! Si vous commencez à dire que Linux, c'est bien mieux que Windows. Vous allez passer pour un dingue. Pourquoi ? Parce que le gens ne savent déjà pas à quoi correspond un Windows qui marche mais qui fait peur et que Linux est, pour ceux qui en ont entendu parler, un truc à la limite du terrorisme informatique. Si vous voulez leur parler d'un autre système d'exploitation que MacOS ou Windows, parlez d'Ubuntu, par exemple. Utilisez son petit nom.}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+\begin{block}{Ne commencez jamais par le système d'exploitation}
+\justifying{
+Non, ne commencez pas par le système d'exploitation. Ça ne sert à rien de faire sauter tout les repères d'un coup. Franchement, c'est comme balancer un automobiliste au volant d'une navette spatiale. Bah ouais, ça se déplace, y'a bien un rapport, mais ça s'arrête là. Laissez l'utilisateur dans ses pantoufles, avant d'éventuellement les changer.
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur}
+\begin{block}{Refusez d'aider un utilisateur de logiciels piratés}
+\justifying{
+    "Tu peux me trouver un Office qui marche ?". S'il ne vous présente pas une licence, envoyez-le balader en lui touchant deux mots sur LibreOffice : que ça marche et que c'est plutôt bien.
+    "Mon Windows marche plus, tu peux me le réinstaller ?". Oui : donne moi ton CD de réinstallation avec la clé CD. Ça marche pas souvent... S'il rentre dans les conditions d'un utilisateur landba, balancez lui un Ubuntu LTS et si il n'est pas content, laissez-le.
+    "Tu peux me trouver la dernière version de Photoshop ?". Non, mais il y a TheGIMP qui pourrait t'aider, légalement en plus.
+On ne trouve pas toujours d'équivalent libre aux logiciels privateurs piratés. Passez pas Framasoft ou l'Annuaire Libre  de Cyrille BORNE pour vous filer des conseils.
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+\begin{block}{Acceptez un peu de compromis}
+\justifying{
+C'est un histoire qui m'est arrivée. J'ai passé un proche au libre en le mettant sous Ubuntu mais il se devait d'avoir pour X ou Y raisons un Office. PoL, WineHQ et Microsoft Office sont apparus sur son PC. Je préfère le voir tourner sous Ubuntu LTS avec un Office sous Wine que de rater un passage au libre pour une simple histoire de traitement de texte.
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+\begin{block}{Acceptez de servir de "formateur c:"}
+\justifying{
+C'est souvent pour ce genre d'activité que vos amis vous apprécient. Plus rien ne marche, il faut formater ? Acceptez, si la condition 7 est respectée. Vous allez réinstaller un Windows, mais lachez-vous : Firefox, Thunderbird, VLC, LibreOffice... Installez tout de base ! Vous ferez du bien à l'ordinateur et comme ça marche, votre commanditaire ne dira rien. Prenez bien soin de les configurer comme logiciels à utiliser par défaut ! Bref, vous avez le pouvoir, prenez-le.
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+\begin{block}{Assumez le Service Après Vente}
+\justifying{
+Pour lutter contre la frustration (qui mène au rejet) de l'utilisateur que vous venez de noyez dans du libre, assumez le SAV. En général, si vous vous êtes contenté d'installer des grands classiques, vous n'aurez pas trop de soucis. Si vous avez installé une Ubuntu LTS, pas trop de soucis non plus. Il vous appellera parce qu'il ne comprend pas trop l'avalanche de mise à jour, dites-lui que tout va bien et qu'il faut accepter. N'oubliez pas de configurer les mis à jour des versions d'Ubuntu vers les LTS suivantes uniquement.
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Conseil n\degre \themoncompteur }
+\begin{block}{Laissez tomber si c'est un joueur}
+\justifying{
+N'y pensez même pas, c'est tout.
+}
+\end{block}
+\end{frame}
+\addtocounter{moncompteur}{1}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{Merci de votre attention.}}
+\Huge{\centerline{Place aux questions. Débattons...}}
+\end{frame}
+
+\end{document}
